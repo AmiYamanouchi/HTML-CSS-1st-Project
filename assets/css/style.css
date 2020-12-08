@@ -50,4 +50,463 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    
+}
+
+nav .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav .row ul {
+    list-style: none;
+    align-items: flex-end;
+    margin-left: 2em;
+}
+
+nav .row li {
+    float: left;
+    margin: 0 2em;
+}
+
+nav .row a{
+    text-decoration: none;
+    color:white;
+}
+
+nav .row img {
+    margin-right: 10px;
+    width: 10%;
+    height: 10%;
+}
+
+.hero-text-box {
+    color: #fff;
+    margin-top: 7em;
+    text-align: center;
+
+}
+
+.hero-text-box h1 {
+ text-align: center;
+}
+
+.hero-text-box a {
+    margin: 2em 2em;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    border: 1px solid orange;
+}
+
+.hero-text-box a:hover {
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(250, 150, 35);
+    text-decoration: none;
+}
+
+/* ----------------------------------------------- */
+/* section 1 .section-features */
+/* ----------------------------------------------- */
+
+.section-features  {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.row {
+    text-align: center;
+}
+
+.row h2{
+    text-align: center;
+    margin: 3em 2em;
+    display: inline-block;
+    position: relative;
+}
+
+/* orange under line */
+.row h2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -30px; /*下線の上下位置調整*/
+    display: inline-block;
+    width: 70px; /*下線の幅*/
+    height: 2px; /*下線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); /*位置調整*/
+    background-color: rgb(250, 150, 35); /*下線の色*/
+}
+
+.icon-big {
+    color:rgb(250, 150, 35);
+    font-size: 60px;
+}
+
+.col p {
+    margin: 20px 10px;
+    /* text-align: left; */
+    /* background-color: rgb(187, 100, 100); */
+}
+
+
+/* ----------------------------------------------- */
+/* section 2 .section-meals */
+/* ----------------------------------------------- */
+
+
+ul.meals-showcase.clearfix{
+    margin: 0;
+    list-style: none;
+}
+
+
+.meals-showcase img {
+    width: 25%;
+    float: left;
+}
+
+figure {
+    margin: 0;
+}
+
+/* ----------------------------------------------- */
+/* section 3 .section-steps */
+/* ----------------------------------------------- */
+
+
+.steps-box{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+.span-1-of-2 img {
+    width: 30%;
+}
+
+
+
+.works-step {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(177, 142, 241); */
+}
+
+.works-step div {
+    
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    border: 1px solid orange;
+    border-radius: 50%;
+    /* background-color: rgb(240, 116, 116); */
+    color: orange;
+}
+
+.works-step p {
+    width: 75%;
+}
+
+.btn-app img{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 200px;
+    height: 60px;
+}
+
+/* ----------------------------------------------- */
+/* section 4 .section-cities */
+/* ----------------------------------------------- */
+
+
+.span-1-of-4 img {
+    width: 100%;
+}
+
+.city-feature {
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.icon-small {
+    color: orange;
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+}
+
+.city-feature a{
+    color: orange;
+    
+}
+
+/* ----------------------------------------------- */
+/* section 5 .section-testimonials */
+/* ----------------------------------------------- */
+
+
+
+.section-testimonials{
+    margin: 0 auto;
+    max-width: 95%;
+    margin-bottom: 6em;
+}
+
+blockquote {
+    position: relative;
+    padding: 5px 15px 5px 55px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #464646;
+    background: #f5f5f5;
+}
+
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px;
+    background: #ff785b;
+    font-weight: 900;
+}
+
+blockquote:after{
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 30px;
+    height: 0;
+    width: 0;
+    border-left: 19px solid #ff785b;
+    border-right: 19px solid #ff785b;
+    border-bottom: 10px solid transparent;
+}
+.quote23 blockquote p {
+    position: relative;
+    padding: 0;
+    margin: 10px 0;
+    z-index: 3;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: left; 
+    align-items: center;
+    color: black;
+    font-size: 0.9em;
+    margin: 15px 0;
+}
+
+.span-1-of-3 img{
+    margin: 0px 10px -15px 10px;
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+
+/* ----------------------------------------------- */
+/* section 6 .section-plans */
+/* ----------------------------------------------- */
+
+
+
+.plan-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.plan-box p{
+    margin: 5px 0 10px 0;
+    display: block;
+    text-align: left;
+}
+
+
+.plan-box h3{
+    text-align: left;
+}
+
+
+.underline {
+    border-bottom: 1px solid rgb(182, 182, 182);
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    color: orange;
+    font-size: 3em;
+}
+
+.plan-price span{
+    color: orange;
+    font-size: large;
+}
+
+.plan-box ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.plan-box li {
+    text-align: left;
+}
+
+
+.orange-box a {
+    text-decoration: none;
+    padding: 2px 20px;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 20px;
+}
+
+.orange-box a:hover {
+    text-decoration: none;
+    padding: 2px 20px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+
+.orange-box {
+    margin: 25px;
+    text-align: center;
+}
+
+/*これどうしようね。。。*/
+.row{
+    margin-bottom: 2em;
+}
+
+
+/* ----------------------------------------------- */
+/* section 6 .section-form */
+/* ----------------------------------------------- */
+
+.section-form{
+    width: 70%;
+    margin: 0 auto
+}
+#name, #email, #find-us {
+    width: 80%;
+}
+
+.section-form textarea {
+    width: 80%;
+    height: 100px;
+}
+
+.span-2-of-3 {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.span-1-of-3 label{
+
+    padding-left: 25%;
+    float: left;
+}
+
+
+.button {
+    text-decoration: none;
+    padding: 2px 20px;
+    border: 1px solid orange;
+    background-color: rgb(252, 202, 110);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.button:hover {
+    text-decoration: none;
+    padding: 2px 20px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+/* ----------------------------------------------- */
+/* footer */
+/* ----------------------------------------------- */
+
+footer {
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: rgb(71, 68, 68);
+}
+
+.footer-nav, .social-links{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    color: #c2b5b5;
+    
+}
+
+.footer-nav{
+    justify-content: space-between;
+    margin-left: 2em;
+}
+
+.social-links{
+    justify-content: flex-end;
+}
+
+
+.footer-nav a{
+    align-items: stretch;
+    text-decoration: none;
+    color: orange;
+}
+
+.social-links li{
+    float: right;
+    margin: 0 1em;
+    color: orange;
+    font-weight: 200;
+}
+
+.social-links i{
+    margin: 0 10%;
+    color: orange;
+    font-size: 30px;
+}
+
+
+footer .span-1-of-2{
+    display: flex;
+    /* background-color: rgb(243, 142, 142); */
+}
+
+footer p {
+    color: #c2b5b5;
 }
